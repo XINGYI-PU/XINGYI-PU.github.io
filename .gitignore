@@ -1,0 +1,28 @@
+_site
+.bundle
+.DS_store
+.idea
+.jekyll-cache
+.jekyll-metadata
+.ruby-version
+.sass-cache
+.tweet-cache
+.venv
+assets/libs/
+assets/rendercv/rendercv_output/*.typ
+al-folio-upgrade-report.md
+node_modules/
+output/playwright/
+test-results/
+vendor
+
+# Python bytecode from bin/ helper scripts
+__pycache__/
+*.pyc
+
+# Keep local publishing outputs and the temporarily unpublished CV private.
+output/
+_data/cv.yml
+_pages/cv.md
+assets/pdf/xingyi-pu-cv.pdf
+assets/rendercv/rendercv_output/
